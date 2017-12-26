@@ -24,7 +24,4 @@ public class ZanrList implements Serializable {
 	public void setZanrs(List<Zanr> zanrs) {
 		this.zanrs = zanrs;
 	}
-
-
-	
 }

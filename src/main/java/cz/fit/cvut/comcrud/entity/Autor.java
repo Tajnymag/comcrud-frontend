@@ -38,7 +38,6 @@ import javax.xml.bind.annotation.XmlTransient;
 	, @NamedQuery(name = "Autor.findByPohlavi", query = "SELECT a FROM Autor a WHERE a.pohlavi = :pohlavi")
 	, @NamedQuery(name = "Autor.findByInfo", query = "SELECT a FROM Autor a WHERE a.info = :info")})
 public class Autor implements Serializable {
-
 	
 	@JoinColumn(name = "ID_NARODNOST", referencedColumnName = "ID_NARODNOST")
 	@ManyToOne(optional = false)
